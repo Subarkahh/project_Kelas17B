@@ -20,7 +20,7 @@ body {
     font-size: 20px;
     font-weight: 800;
     float: left;
-    font-family: courier;
+    font-family: 'Montserrat';
     color: #364f6b;
 }
 
@@ -58,6 +58,7 @@ nav ul li a {
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
+    font-family: 'Montserrat', 'sans serif';
 }
 
 nav ul li a:hover {
@@ -67,7 +68,9 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
+    justify-content: space-between;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .kolom {
@@ -78,12 +81,12 @@ section {
 .kolom .deskripsi {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans ms';
+    font-family: 'Poppins';
     color: #364f6b;
 }
 
 h2 {
-    font-family: 'comic sans ms';
+    font-family: 'Poppins';
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
@@ -93,18 +96,22 @@ h2 {
 }
 
 a.tbl-biru {
-    background: #3f72af;
-    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #3f72af;
+    border-radius: 30px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
+    color: #3f72af;
     cursor: pointer;
     font-weight: bold;
+    font-family: 'Montserrat';
 }
 
 a.tbl-biru:hover {
-    background: #fc5185;
+    background: #00c04ab6;
+    color: #fff;
     text-decoration: none;
+    transition: all 1.0s ease-out;
 }
 
 p {
@@ -135,7 +142,7 @@ p {
 }
 
 .kartu-mentor p {
-    font-family: 'comic sans ms';
+    font-family: 'Poppins';
     font-weight: 800;
     font-size: 25px;
     text-align: center;
